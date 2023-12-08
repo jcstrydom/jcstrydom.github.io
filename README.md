@@ -35,6 +35,8 @@ user_proxy = UserProxyAgent(
 
 The essential step here is `"use_docker": True`.
 
+> ***Note:*** keep an eye on the images that docker uses. It seems there is an tendancy to download, or create, an image everytime code is run
+
 ### Docker Permission Issues
 
 A minor yet crucial step was updating Docker to the latest version (24.x.x at the time of writing) and enabling cross-platform compatibility between Windows and WSL (Windows Subsystem Linux), as discussed in [this helpful StackOverflow post](https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found).
