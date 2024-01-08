@@ -19,8 +19,8 @@ I'm a seasoned Senior Data Scientist at a major commercial bank in South Africa,
 Outside the office, I'm committed to expanding my skills and capabilities and writting up these projects and knowledge gained into blogs. These range from learning about linux, using agents powerd by generative AI to build software, to developing an efficient backup system for my home data. These projects not only fuel my passion for data science but also assit me in being a well rounded and practically minded data scientist.
 
 Here is the running list of my blogs:
-- **Personal data backup project:** [Discover how I'm pushing the boundaries of predictive analytics.](#link-to-project-A-blog)
-- **Getting AutoGen up on Windows:** [Learn about my journey in democratizing data science.](#link-to-project-B-blog)
+- **Personal data backup project:** [*Sea* how I made my personal backup process more efficient.](blog-backup-journey.md)
+- **Getting AutoGen up on Windows:** [I got AutoGen to work on Windows and heres how I did it.](blog-autogen-on-windows.md)
 
 ### Join My Journey:
 
