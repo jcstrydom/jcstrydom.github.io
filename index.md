@@ -1,7 +1,5 @@
 
-# Home Page
-
-## Welcome to Johan's Home Space
+# Welcome to Johan's Home Space
 
 ### About Me:
 
