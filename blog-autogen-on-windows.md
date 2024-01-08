@@ -1,5 +1,7 @@
 # Microsoft AutoGen on Windows: A User's Journey
 
+[Back to home](index.md)
+
 Hello there! Recently, I stumbled upon [this fascinating video](https://www.youtube.com/watch?v=V2qZ_lgxTzg&t=14s) showcasing Microsoft AutoGen on Windows, and I must say, it piqued my interest instantly. It seemed almost too good to be true! Eager to explore, I embarked on my journey to set it up. Naturally, there were a few hiccups along the way, but nothing that couldn’t be resolved with a bit of patience and problem-solving.
 
 ## Getting Started
@@ -46,3 +48,5 @@ A minor yet crucial step was updating Docker to the latest version (24.x.x at th
 After navigating through these setup steps and resolving the challenges, I successfully executed the program and achieved the desired results with GenAI.
 
 I hope this guide assists you in your AutoGen journey. Whether your experience mirrors mine or diverges, I'd love to hear about it. Feel free to share your thoughts and feedback in the comments!
+
+[Back to home](index.md)
