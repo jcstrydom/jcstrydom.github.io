@@ -18,7 +18,7 @@ Outside the office, I'm committed to expanding my skills and capabilities and wr
 
 Here is the running list of my blogs:
 - **Personal data backup project:** [*Sea* how I made my personal backup process more efficient.](blog-backup-journey.md)
-- **Getting AutoGen up on Windows:** [I got AutoGen to work on Windows and heres how I did it.](blog-autogen-on-windows.md)
+- **Getting [AutoGen](https://microsoft.github.io/autogen/docs/Getting-Started/) up on Windows:** [I got AutoGen to work on Windows and here's how I did it.](blog-autogen-on-windows.md)
 
 ### Join My Journey:
 

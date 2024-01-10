@@ -1,28 +1,50 @@
-# Steering the Ship: Building a Robust PowerShell Backup Script with AI Insight
+# Steering the Ship: Building a Robust PowerShell Backup Script with GenAI
 
----
-[Back to home](index.md)
+[Back to Home](index.md)
 
 
-**Good evening, digital guardians and PowerShell enthusiasts!**
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+    <img src="backup-images/DALL·E 2024-01-10 21.12.11-Boat_on_digital_rough_seas.png" alt="Boat on digital rough seas" style="margin-right: 20px; width: 390px; height: auto;">
+    <div>
+        <p><strong>Good evening, digital guardians and PowerShell enthusiasts!</strong></p>
+        <p>
+            In this blog, we take a closer look at the development of a PowerShell backup script, a project that blends traditional scripting with the innovative use of generative AI. This script, like a well-steered ship, represents a journey of technological evolution and practical knowledge-sharing.
+        </p>
+    <!-- </div>
+    <div> -->
+        <p><strong>Initial Drafting: The AI-Assisted Beginning</strong></p>
+        <p>
+            Our journey began with generative AI laying the groundwork. The AI's first draft, while rudimentary, provided a foundational structure
+        </p>
+    </div>
+        
 
-In this blog, we take a closer look at the development of a PowerShell backup script, a project that blends traditional scripting with the innovative use of generative AI. This script, like a well-steered ship, represents a journey of technological evolution and practical knowledge-sharing.
+</div>
 
-### **Initial Drafting: The AI-Assisted Beginning**
 
-Our journey began with generative AI laying the groundwork. The AI's first draft, while rudimentary, provided a foundational structure from which to build. This early version was like a sketch of a ship, outlining the basic shape but needing significant refinement and detail.
+
+<!-- ### **Initial Drafting: The AI-Assisted Beginning** -->
+
+<!-- Our journey began with generative AI laying the groundwork. The AI's first draft, while rudimentary, provided a foundational structure  -->
+from which to build. This early version was like a sketch of a ship, outlining the basic shape but needing significant refinement and detail.
 
 ### **Evolution from Text to YAML Configuration**
 
 The script initially used a simple text file for configuration. Recognizing the need for a more organized and robust approach, I transitioned to a YAML file. This shift was like moving from a simple steering wheel to a full-fledged navigational console, providing more control and flexibility over the backup process.
 
-### **Crafting the YAML File: A Detailed Map**
-
-The YAML file, akin to a detailed map, now encompasses not just subdirectories but the entire backup strategy. It's the heart of the script's operation, guiding it precisely to what needs to be backed up and where it should be stored. 
-
-### **Running the Script: Navigating the Waters**
-
-To run this script, one simply needs to prepare the YAML file and execute the `BackupScript.ps1`. This process is comparable to setting the ship's course and then letting it sail, with PowerShell acting as the wind in its sails. The execution is straightforward, yet it's a crucial step in ensuring the safety of your data.
+<div style="display: flex; align-items: flex-start; flex-direction: row-reverse;">
+    <img src="backup-images/DALL·E 2024-01-10 21.54.39-Map_with_route.png" alt="Image Description" style="margin-left: 10px; width: 250px; height: auto;">
+    <div>
+        <p><strong>Crafting the YAML File: A Detailed Map</strong></p>
+        <p>
+            The YAML file, akin to a detailed map, now encompasses not just subdirectories but the entire backup strategy. It's the heart of the script's operation, guiding it precisely to what needs to be backed up and where it should be stored.
+        </p>
+        <p><strong>Running the Script: Navigating the Waters</strong></p>
+        <p>
+            To run this script, one simply needs to prepare the YAML file and execute the `BackupScript.ps1`. This process is comparable to setting the ship's course and then letting it sail, with PowerShell acting as the wind in its sails. The execution is straightforward, yet it's a crucial step in ensuring the safety of your data.
+        </p>
+    </div>
+</div>
 
 ### **Refining the Script: Adjusting the Sails**
 
@@ -39,5 +61,7 @@ This project highlights the dynamic interplay between AI-generated drafts and hu
 In conclusion, this PowerShell script is more than just a backup tool; it's a testament to the blend of AI assistance and human skill in software development. It underscores the importance of continuous learning and adaptation in the ever-evolving field of technology.
 
 **Until next time, may your data remain safe and your journey through the seas of technology be ever enlightening!**
+
+<img align="left" src="backup-images\DALL·E 2024-01-10 21.14.42-Boat_on_digital_sea_towards_harbor.png" alt="Boat on digital sea towards harbor" />
 
 [Back to home](index.md)
