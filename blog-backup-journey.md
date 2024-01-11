@@ -2,9 +2,13 @@
 
 [Back to Home](index.md)
 
+> ***Info***
+>
+> The below is a playful description of the building process. If you are more interested in the final code base (with accomanying README), please follow [this link.](https://github.com/jcstrydom/robocopy-scripting)
+
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <img src="backup-images/DALL·E 2024-01-10 21.12.11-Boat_on_digital_rough_seas.png" alt="Boat on digital rough seas" style="margin-right: 20px; width: 390px; height: auto;">
+    <img src="backup-images/DALL·E 2024-01-10 21.12.11-Boat_on_digital_rough_seas.png" alt="Boat on digital rough seas" style="margin-right: 20px; width: 430px; height: auto;">
     <div>
         <p><strong>Good evening, digital guardians and PowerShell enthusiasts!</strong></p>
         <p>
@@ -59,6 +63,10 @@ Every journey faces challenges, and running this script is no exception. If issu
 This project highlights the dynamic interplay between AI-generated drafts and human expertise. While AI can initiate the process, it's the nuanced understanding and experience of a software engineer or data scientist that brings the project to fruition. It demonstrates that, even in an age of advanced AI, the human element remains crucial in technology development.
 
 In conclusion, this PowerShell script is more than just a backup tool; it's a testament to the blend of AI assistance and human skill in software development. It underscores the importance of continuous learning and adaptation in the ever-evolving field of technology.
+
+### Final Result
+
+[Here](https://github.com/jcstrydom/robocopy-scripting) is the code that was created through this process.
 
 **Until next time, may your data remain safe and your journey through the seas of technology be ever enlightening!**
 
