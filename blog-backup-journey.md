@@ -2,9 +2,8 @@
 
 [Back to Home](index.md)
 
-> ***Info***
->
-> The below is a playful description of the building process. If you are more interested in the final code base (with accomanying README), please follow [this link.](https://github.com/jcstrydom/robocopy-scripting)
+> ***INFO*** - The below is a playful description of the building process.
+> If you are more interested in the final code base, please follow [this link.](https://github.com/jcstrydom/robocopy-scripting)
 
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
