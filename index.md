@@ -28,9 +28,5 @@ Stay connected to explore the fascinating world of data science through my eyes.
 
 Feel free to reach out for collaborations, insights, or just a chat about the limitless possibilities of data science.
 
-* LinkedIn: 
-
-### Dive Deeper into My Projects:
-
-[Explore More of My Side Projects](#link-to-more-projects)
+* [[LinkedIn]](https://www.linkedin.com/in/johan-strydom/)
 
