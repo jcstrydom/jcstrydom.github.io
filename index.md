@@ -12,9 +12,9 @@ I'm a seasoned Senior Data Scientist at a major commercial bank in South Africa,
 - **System Design:** Architecting robust systems that stand the test of evolving data challenges, specifically focusing on AWS cloud design.
 - **Real-Time Analytics:** Embracing the latest trends to deliver timely and impactful data solutions.
 
-### Side Projects and Knowledge Shares:
+### Side Projects and Knowledge Sharing:
 
-Outside the office, I'm committed to expanding my skills and capabilities and writting up these projects and knowledge gained into blogs. These range from learning about linux, using agents powerd by generative AI to build software, to developing an efficient backup system for my home data. These projects not only fuel my passion for data science but also assit me in being a well rounded and practically minded data scientist.
+Outside the office, I'm committed to expanding my skills and capabilities and writting up these projects and knowledge gained into blogs. These range from learning about linux, using agents powerd by generative AI to build software, developing an efficient backup system for my home data and more. These projects not only fuel my passion for data science but also assit me in being a well rounded and practically minded data scientist.
 
 Here is the running list of my blogs:
 - **Personal data backup project:** [*Sea* how I made my personal backup process more efficient.](blog-backup-journey.md)
