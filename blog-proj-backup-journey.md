@@ -6,25 +6,60 @@
 > If you are more interested in the final code base, please follow [this link.](https://github.com/jcstrydom/robocopy-scripting)
 
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-    <img src="backup-images/DALL·E 2024-01-10 21.12.11-Boat_on_digital_rough_seas.png" alt="Boat on digital rough seas" style="margin-right: 20px; width: 430px; height: 270px;">
-    <div>
+<style>
+    .first-image-container {
+        float: left; /* Float the image container to the left */
+        margin-right: 20px; /* Space between the image and the text */
+        width: 40%; /* Adjust this as needed */
+        max-width: 430px; /* Maximum width of the image */
+    }
+
+    .second-image-container {
+        float: right; /* Float the image container to the left */
+        margin-right: 20px; /* Space between the image and the text */
+        width: 30%; /* Adjust this as needed */
+        max-width: 430px; /* Maximum width of the image */
+    }
+
+    .image-container img {
+        width: 100%; /* Make the image fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .text-container {
+        overflow: hidden; /* Ensures the text wraps around the image */
+    }
+
+    @media (max-width: 600px) {
+        .image-container {
+            float: none;
+            width: 80%; /* Larger percentage for smaller screens */
+            margin: 0 auto 20px; /* Center the image and add space below on small screens */
+        }
+    }
+</style>
+
+<div class="content-container">
+    <div class="first-image-container">
+        <img src="backup-images/DALL·E 2024-01-10 21.12.11-Boat_on_digital_rough_seas.png" alt="Boat on digital rough seas">
+    </div>
+    <div class="text-container">
         <p><strong>Good evening</strong>, digital guardians and PowerShell enthusiasts!</p>
         <p>
             In this blog, we take a closer look at the development of a PowerShell backup script, a project that blends traditional scripting with the innovative use of generative AI. This script, like a well-steered ship, represents a journey of technological evolution and practical knowledge-sharing.
         </p>
     <!-- </div>
     <div> -->
-        <p><strong>Initial Drafting: The AI-Assisted Beginning</strong></p>
+        <!-- <p><strong>Initial Drafting: The AI-Assisted Beginning</strong></p>
         <p>
             Our journey began with generative AI laying the groundwork. The AI's first draft, while rudimentary, provided a foundational structure from which to build.
-        </p>
+        </p> -->
     </div>
-        
-
 </div>
 
-This early version was like a sketch of a ship, outlining the basic shape but needing significant refinement and detail. An example of this refinement, was using of config files to insert parameters into the program without altering the code. These config files could take many formats, example `.txt`, `.json`, or `.yml`.
+### Initial Drafting: The AI-Assisted Beginning
+
+Our journey began with generative AI laying the groundwork. The AI's first draft, while rudimentary, provided a foundational structure from which to build. This early version was like a sketch of a ship, outlining the basic shape but needing significant refinement and detail. An example of this refinement, was using of config files to insert parameters into the program without altering the code. These config files could take many formats, example `.txt`, `.json`, or `.yml`.
 
 As a first iteration, I asked the LLM to add a `.txt` configuration file ...
 
@@ -32,9 +67,12 @@ As a first iteration, I asked the LLM to add a `.txt` configuration file ...
 
 Recognizing the need for a more organized and robust approach, I transitioned from a `.txt` to a YAML file. This shift was like moving from a simple steering wheel to a full-fledged navigational console, providing more control and flexibility over the backup process. YAML's human interpretable format assists greatly with this.
 
-<div style="display: flex; align-items: flex-start; flex-direction: row-reverse;">
-    <img src="backup-images/DALL·E 2024-01-10 21.54.39-Map_with_route.png" alt="Image Description" style="margin-left: 10px; width: 250px; height: 400px;">
-    <div>
+
+<div class="content-container">
+    <div class="second-image-container">
+        <img src="backup-images/DALL·E 2024-01-10 21.54.39-Map_with_route.png" alt="Map with plotted route over digital sea">
+    </div>
+    <div class="text-container">
         <p><strong>Crafting the YAML File: A Detailed Map</strong></p>
         <p>
             The YAML file, akin to a detailed map, now gave the ability to encompasses not just subdirectories but the entire backup strategy. It's the heart of the script's operation, guiding it precisely to what needs to be backed up and where it should be stored.
@@ -47,18 +85,22 @@ Recognizing the need for a more organized and robust approach, I transitioned fr
                 <li><em>Source Directories</em> - the directories to include in the backup</li>
             </ul>
         </p>
-        <p>
+        <!-- <p>
             The script's default settings, particularly the Robocopy flags, are set. These settings are analogous to the sails of our ship, set to catch the wind efficiently, and can be adjusted or fine-tuned to suit different needs or to explore new efficiencies. Furthermore, these flags can also be included in the config file in future iterations.
         </p>
         <p>
             A benefit of using a config file, is multiple config files could enable different source directories which can be backup to varying destinations without changing any code. Rather just add or remove configs and run the script by passing in these config files. 
-        </p>
+        </p> -->
     </div>
 </div>
 
+The script's default settings, particularly the Robocopy flags, are set. These settings are analogous to the sails of our ship, set to catch the wind efficiently, and can be adjusted or fine-tuned to suit different needs or to explore new efficiencies. Furthermore, these flags can also be included in the config file in future iterations.
+
+ A benefit of using a config file, is multiple config files could enable different source directories which can be backup to varying destinations without changing any code. Rather just add or remove configs and run the script by passing in these config files. 
+
 ### **Running the Script: Navigating the Waters**
 
-To run this script, one simply needs to prepare the YAML file and execute the `BackupScript.ps1`. This process is comparable to setting the ship's course and then launching it, with PowerShell acting as the wind in its sails. The execution is straightforward, yet it's a crucial step in ensuring the safety of your data.
+To run this script, one simply needs to prepare the YAML file and execute the `backup-script.ps1`. This process is comparable to setting the ship's course and then launching it, with PowerShell acting as the wind in its sails. The execution is straightforward, yet it's a crucial step in ensuring the safety of your data.
 
 ### **Troubleshooting: Navigating Challenges**
 
