@@ -17,8 +17,8 @@ I am a seasoned Senior Data Scientist specializing in retail banking in the Sout
 Outside the office, I am committed to expanding my skills and capabilities and writing up these projects and the knowledge gained into blogs. The projects range from learning about Linux, using agents powered by generative AI, to developing an efficient backup system for my home data. My passion for data science is fueled by each project, and also assists me in being a well-rounded and practically-minded data scientist.
 
 Here is the running list of my blogs:
-- **Personal Data Backup Project:** [*Sea* how I made my personal backup process more efficient.](blog-backup-journey.md)
-- **Getting [AutoGen](https://microsoft.github.io/autogen/docs/Getting-Started/) up on Windows:** [Here's how I got AutoGen to work on Windows.](blog-autogen-on-windows.md)
+- **Personal Data Backup Project:** [*Sea* how I made my personal backup process more efficient.](blog-proj-backup-journey.md)
+- **Getting [AutoGen](https://microsoft.github.io/autogen/docs/Getting-Started/) up on Windows:** [Here's how I got AutoGen to work on Windows.](blog-proj-autogen-on-windows.md)
 
 ### Contact Me:
 
